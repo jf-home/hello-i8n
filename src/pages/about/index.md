@@ -1,4 +1,5 @@
 ---
+templateKey: about-page
 en:
   title: About our values
   body: >-
@@ -26,6 +27,7 @@ en:
 
     We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
 de:
+  title: " Über unsere Werte"
   body: >-
     ### Schattenkaffee
 
@@ -50,5 +52,4 @@ de:
     ### Gewinne reinvestieren
 
     Wir möchten die Gemeinschaften, die Ihnen fantastischen Kaffee bringen, wirklich stärken. Deshalb investieren wir 20% unseres Gewinns überall dort in Farmen, lokale Unternehmen und Schulen, wo unser Kaffee angebaut wird. In unserem Blog können Sie sehen, wie die Gemeinden wachsen und mehr über den Kaffeeanbau erfahren.
-  title: " Über unsere Werte"
 ---
