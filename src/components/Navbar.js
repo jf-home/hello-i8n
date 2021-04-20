@@ -1,7 +1,8 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import github from '../img/github-icon.svg'
+//import github from '../img/github-icon.svg'
 import logo from '../img/logo.svg'
+import { stubString } from 'lodash'
 
 const Navbar = class extends React.Component {
 //class Navbar extends React.Component {
@@ -35,6 +36,7 @@ const Navbar = class extends React.Component {
 
   render() {
     console.log(this.props.locale)
+    console.log(this.props.location)
     return (
       <nav
         className="navbar is-transparent"
@@ -72,35 +74,21 @@ const Navbar = class extends React.Component {
                 Blog
               </Link>
             </div>
-            {/*<div className="navbar-end has-text-centered">
-              <a
-                className="navbar-item"
-                href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span className="icon">
-                  <img src={github} alt="Github" />
-                </span>
-              </a>
-            </div>*/}
-
             <div className="navbar-end has-text-centered">
               <div className="current-language">
                 {this.props.locale === "en" 
                   ? 
-                    (<span className='navbar-item'><strong>English</strong> <Link to={['/','de','/'].join('')} className='navbar-item'>Deutsh</Link></span>)
+                    (<span className='navbar-item'><strong>English</strong> <Link to={['/','de', this.props.location.pathname].join('')} className='navbar-item'>Deutsh</Link></span>)
                   : 
-                    (<span className='navbar-item'><strong>Deutsh</strong> <Link to='/' className='navbar-item'>English</Link></span>)
+                    (<span className='navbar-item'><strong>Deutsh</strong> <Link to={this.props.location.pathname.substring(3)} className='navbar-item'>English</Link></span>)
                 }
               </div>
             </div>
-
-
           </div>
         </div>
       </nav>
     )
   }
 }
+
 export default Navbar
