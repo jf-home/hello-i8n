@@ -1,5 +1,5 @@
 ---
 templateKey: blog-post
-title: duesche
+title: Ein Leitfaden für Anfänger zum Brauen mit Chemex
 description: deusche
 ---
