@@ -19,9 +19,10 @@ class TagRoute extends React.Component {
     const tagHeader = `${totalCount} post${
       totalCount === 1 ? '' : 's'
     } tagged with “${tag}”`
+    const locale = this.props.data.allMarkdownRemark.node.edges[0].fields.locale
 
     return (
-      <Layout>
+      <Layout locale={locale}>
         <section className="section">
           <Helmet title={`${tag} | ${title}`} />
           <div className="container content">
@@ -63,6 +64,7 @@ export const tagPageQuery = graphql`
         node {
           fields {
             slug
+            locale
           }
           frontmatter {
             title

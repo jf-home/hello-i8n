@@ -1,12 +1,12 @@
 import React from 'react'
-
+import { graphql } from 'gatsby'
 import Layout from '../../components/Layout'
 import BlogRoll from '../../components/BlogRoll'
 
 export default class BlogIndexPage extends React.Component {
-  render() {
+    render() {
     return (
-      <Layout>
+      <Layout locale={this.props.pageContext.locale}>
         <div
           className="full-width-image-container margin-top-0"
           style={{
@@ -22,7 +22,8 @@ export default class BlogIndexPage extends React.Component {
               padding: '1rem',
             }}
           >
-            Latest Stories
+            {/*post.frontmatter.title*/}
+            {this.props.pageContext.locale === "en" ? "Latest stories" : "Neueste Geschichten"}
           </h1>
         </div>
         <section className="section">
@@ -36,3 +37,16 @@ export default class BlogIndexPage extends React.Component {
     )
   }
 }
+
+export const pageQuery = graphql`
+  query blogPage($id: String!) {
+    markdownRemark(id: { eq: $id }) {
+      fields {
+        locale
+      }
+      frontmatter {
+        title
+      }
+    }
+  }
+`

@@ -58,7 +58,7 @@ const BlogPost = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
-    <Layout>
+    <Layout locale={post.fields.locale}>
       <BlogPostTemplate
         content={post.html}
         contentComponent={HTMLContent}
@@ -92,6 +92,9 @@ export const pageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       id
       html
+      fields {
+        locale
+      }
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         title

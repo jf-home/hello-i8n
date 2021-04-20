@@ -4,7 +4,8 @@ import github from '../img/github-icon.svg'
 import logo from '../img/logo.svg'
 
 const Navbar = class extends React.Component {
-  constructor(props) {
+//class Navbar extends React.Component {
+    constructor(props) {
     super(props)
     this.state = {
       active: false,
@@ -33,6 +34,7 @@ const Navbar = class extends React.Component {
   }
 
   render() {
+    console.log(this.props.locale)
     return (
       <nav
         className="navbar is-transparent"
@@ -41,7 +43,7 @@ const Navbar = class extends React.Component {
       >
         <div className="container">
           <div className="navbar-brand">
-            <Link to="/" className="navbar-item" title="Logo">
+            <Link to={this.props.locale === "en" ? "/" : ["/",this.props.locale,"/"].join("")} className="navbar-item" title="Logo">
               <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
             </Link>
             {/* Hamburger menu */}
@@ -60,23 +62,17 @@ const Navbar = class extends React.Component {
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/about">
-                About
+              <Link className="navbar-item" to={this.props.locale === "en" ? "/about" : ["/",this.props.locale,"/about"].join("")}>
+                {this.props.locale === "en" ? "About" : "Über"}
               </Link>
-              <Link className="navbar-item" to="/products">
+              <Link className="navbar-item" to={this.props.locale === "en" ? "/products" : ["/",this.props.locale,"/products"].join("")}>
                 Products
               </Link>
-              <Link className="navbar-item" to="/blog">
+              <Link className="navbar-item" to={this.props.locale === "en" ? "/blog" : ["/",this.props.locale,"/blog"].join("")}>
                 Blog
               </Link>
-              <Link className="navbar-item" to="/contact">
-                Contact
-              </Link>
-              <Link className="navbar-item" to="/contact/examples">
-                Form Examples
-              </Link>
             </div>
-            <div className="navbar-end has-text-centered">
+            {/*<div className="navbar-end has-text-centered">
               <a
                 className="navbar-item"
                 href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
@@ -87,12 +83,24 @@ const Navbar = class extends React.Component {
                   <img src={github} alt="Github" />
                 </span>
               </a>
+            </div>*/}
+
+            <div className="navbar-end has-text-centered">
+              <div className="current-language">
+              {this.props.locale === "en" 
+                ? 
+                  (<><span>English</span> <Link to={['/','de','/'].join('')} className='navbar-item'>Deutsh</Link></>)
+                : 
+                  (<><span>Deutsh</span> <Link to='/' className='navbar-item'>English</Link></>)
+              }
+              </div>
             </div>
+
+
           </div>
         </div>
       </nav>
     )
   }
 }
-
 export default Navbar
