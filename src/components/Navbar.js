@@ -89,9 +89,9 @@ const Navbar = class extends React.Component {
               <div className="current-language">
                 {this.props.locale === "en" 
                   ? 
-                    (<><span>English</span> <Link to={['/','de','/'].join('')} className='navbar-item'>Deutsh</Link></>)
+                    (<span className='navbar-item'><strong>English</strong> <Link to={['/','de','/'].join('')} className='navbar-item'>Deutsh</Link></span>)
                   : 
-                    (<><span>Deutsh</span> <Link to='/' className='navbar-item'>English</Link></>)
+                    (<span className='navbar-item'><strong>Deutsh</strong> <Link to='/' className='navbar-item'>English</Link></span>)
                 }
               </div>
             </div>
