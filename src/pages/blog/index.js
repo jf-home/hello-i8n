@@ -37,16 +37,3 @@ export default class BlogIndexPage extends React.Component {
     )
   }
 }
-
-export const pageQuery = graphql`
-  query blogPage($id: String!) {
-    markdownRemark(id: { eq: $id }) {
-      fields {
-        locale
-      }
-      frontmatter {
-        title
-      }
-    }
-  }
-`
