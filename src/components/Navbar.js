@@ -87,12 +87,12 @@ const Navbar = class extends React.Component {
 
             <div className="navbar-end has-text-centered">
               <div className="current-language">
-              {this.props.locale === "en" 
-                ? 
-                  (<><span>English</span> <Link to={['/','de','/'].join('')} className='navbar-item'>Deutsh</Link></>)
-                : 
-                  (<><span>Deutsh</span> <Link to='/' className='navbar-item'>English</Link></>)
-              }
+                {this.props.locale === "en" 
+                  ? 
+                    (<><span>English</span> <Link to={['/','de','/'].join('')} className='navbar-item'>Deutsh</Link></>)
+                  : 
+                    (<><span>Deutsh</span> <Link to='/' className='navbar-item'>English</Link></>)
+                }
               </div>
             </div>
 
