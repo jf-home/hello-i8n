@@ -1,7 +1,7 @@
 import React from 'react'
-import { graphql } from 'gatsby'
 import Layout from '../../components/Layout'
-import BlogRoll from '../../components/BlogRoll'
+import BlogRollEN from '../../components/BlogRollEN'
+import BlogRollDE from '../../components/BlogRollDE'
 
 export default class BlogIndexPage extends React.Component {
     render() {
@@ -29,7 +29,7 @@ export default class BlogIndexPage extends React.Component {
         <section className="section">
           <div className="container">
             <div className="content">
-              <BlogRoll />
+              {this.props.pageContext.locale === "en" ? <BlogRollEN /> : <BlogRollDE />}
             </div>
           </div>
         </section>

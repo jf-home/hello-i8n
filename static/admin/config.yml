@@ -46,7 +46,9 @@ collections:
 
   - name: "pages"
     label: "Pages"
-    i18n: true
+    i18n: 
+      structure: single_file
+      locales: [en, de]
     files:
       - file: "src/pages/index.md"
         label: "Landing Page"
