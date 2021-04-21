@@ -1,9 +1,10 @@
 ---
 templateKey: blog-post
 title: Ein Leitfaden für Anfänger zum Brauen mit Chemex
-description: >-
-  
-  Das Brauen mit einer Chemex scheint wahrscheinlich eine komplizierte, zeitaufwändige Tortur zu sein, aber sobald Sie sich an den Prozess gewöhnt haben, wird es zu einem beruhigenden Ritual, das sich jedes Mal lohnt.
+description: Das Brauen mit einer Chemex scheint wahrscheinlich eine
+  komplizierte, zeitaufwändige Tortur zu sein, aber sobald Sie sich an den
+  Prozess gewöhnt haben, wird es zu einem beruhigenden Ritual, das sich jedes
+  Mal lohnt.
 tags:
   - brewing
   - chemex
