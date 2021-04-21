@@ -11,7 +11,8 @@ backend:
 media_folder: static/img
 public_folder: /img
 
-local_backend: true
+local_backend: 
+  url: http://localhost:8082/api/v1
 
 i18n:
   # Required and can be one of multiple_folders, multiple_files or single_file

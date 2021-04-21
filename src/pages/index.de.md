@@ -2,19 +2,19 @@
 templateKey: index-page
 title: Toller Kaffee mit Gewissen
 image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
+heading: Toller Kaffee mit Gewissen
 subheading: Support sustainable farming while enjoying a cup
 mainpitch:
-  title: Why Kaldi
+  title: Warum Kaldi
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our
-    beans directly from small scale sustainable farmers and make sure part of
-    the profits are reinvested in their communities.
-description: Kaldi is the ultimate spot for coffee lovers who want to learn
-  about their java’s origin and support the farmers that grew it. We take
-  coffee production, roasting and brewing seriously and we’re glad to pass
-  that knowledge to anyone.
+    Kaldi ist das Café für alle, die glauben, dass guter Kaffee nicht nur gut 
+    schmecken, sondern auch gut tun sollte. Wir beziehen alle unsere Bohnen 
+    direkt von nachhaltigen Kleinbauern und stellen sicher, dass ein Teil der 
+    Gewinne in ihre Gemeinden reinvestiert wird..
+description: Kaldi ist der ultimative Ort für Kaffeeliebhaber, die lernen möchten
+  über die Herkunft ihres Java und unterstützen die Bauern, die es angebaut haben. Wir nehmen
+  Kaffeeproduktion, Rösten und Brauen ernsthaft und wir freuen uns zu bestehen
+  dieses Wissen für jedermann.
 intro:
   blurbs:
     - image: /img/coffee.png
