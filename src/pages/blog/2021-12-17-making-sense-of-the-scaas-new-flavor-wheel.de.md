@@ -1,34 +1,34 @@
 ---
 templateKey: blog-post
-title: Making sense of the SCAA’s new Flavor Wheel
+title: Sinn machen für das neue Flavour Wheel der SCAA
 date: 2016-12-17T15:04:10.000Z
-description: The Coffee Taster’s Flavor Wheel, the official resource used by
-  coffee tasters, has been revised for the first time this year.
+description: Das Flavour Wheel des Kaffee-Verkosters, die offizielle Ressource
+  für Kaffee-Verkoster, wurde dieses Jahr zum ersten Mal überarbeitet.
 featuredpost: false
 featuredimage: /img/flavor_wheel.jpg
 tags:
   - flavor
   - tasting
 ---
-![flavor wheel](/img/flavor_wheel.jpg)
+! [Flavour Wheel] (/ img / Flavour_wheel.jpg)
 
-The SCAA updated the wheel to reflect the finer nuances needed to describe flavors more precisely. The new descriptions are more detailed and hence allow cuppers to distinguish between more flavors.
+Die SCAA hat das Rad aktualisiert, um die feineren Nuancen widerzuspiegeln, die zur genaueren Beschreibung der Aromen erforderlich sind. Die neuen Beschreibungen sind detaillierter und ermöglichen es den Kupfern daher, zwischen mehr Geschmacksrichtungen zu unterscheiden.
 
-While this is going to be a big change for professional coffee tasters, it means a lot to you as a consumer as well. We’ll explain how the wheel came to be, how pros use it and what the flavors actually mean.
+Während dies für professionelle Kaffeeverkoster eine große Veränderung sein wird, bedeutet es Ihnen als Verbraucher auch viel. Wir werden erklären, wie das Rad entstanden ist, wie Profis es verwenden und was die Aromen tatsächlich bedeuten.
 
-## What the updates mean to you
+## Was die Updates für Sie bedeuten
 
-The Specialty Coffee Association of America (SCAA), founded in 1982, is a non-profit trade organization for the specialty coffee industry. With members located in more than 40 countries, SCAA represents every segment of the specialty coffee industry, including:
+Die 1982 gegründete Specialty Coffee Association of America (SCAA) ist eine gemeinnützige Handelsorganisation für die Kaffeespezialitätenindustrie. Mit Mitgliedern in mehr als 40 Ländern repräsentiert SCAA alle Segmente der Kaffeespezialitätenindustrie, einschließlich:
 
-* producers
-* roasters
-* importers/exporters
-* retailers
-* manufacturers
-* baristas
+* Produzenten
+* Röster
+* Importeure / Exporteure
+* Einzelhändler
+* Hersteller
+* Baristas
 
-For over 30 years, SCAA has been dedicated to creating a vibrant specialty coffee community by recognizing, developing and promoting specialty coffee. SCAA sets and maintains quality standards for the industry, conducts market research, and provides education, training, resources, and business services for its members.
+Seit über 30 Jahren widmet sich SCAA der Schaffung einer lebendigen Community für Kaffeespezialitäten durch Anerkennung, Entwicklung und Förderung von Kaffeespezialitäten. SCAA legt Qualitätsstandards für die Branche fest und hält diese aufrecht, führt Marktforschung durch und bietet seinen Mitgliedern Schulungen, Schulungen, Ressourcen und Unternehmensdienstleistungen an.
 
-Coffee cupping, or coffee tasting, is the practice of observing the tastes and aromas of brewed coffee. It is a professional practice but can be done informally by anyone or by professionals known as "Q Graders". A standard coffee cupping procedure involves deeply sniffing the coffee, then loudly slurping the coffee so it spreads to the back of the tongue.
+Kaffee-Schröpfen oder Kaffeeverkostung ist die Praxis, den Geschmack und die Aromen von gebrühtem Kaffee zu beobachten. Es ist eine professionelle Praxis, kann aber informell von jedem oder von Fachleuten durchgeführt werden, die als "Q-Grader" bekannt sind. Ein Standardverfahren zum Schröpfen von Kaffee besteht darin, den Kaffee tief zu schnüffeln und ihn dann laut zu schlürfen, damit er sich auf der Rückseite der Zunge ausbreitet.
 
-The coffee taster attempts to measure aspects of the coffee's taste, specifically the body (the texture or mouthfeel, such as oiliness), sweetness, acidity (a sharp and tangy feeling, like when biting into an orange), flavour (the characters in the cup), and aftertaste. Since coffee beans embody telltale flavours from the region where they were grown, cuppers may attempt to identify the coffee's origin.
+Der Kaffee-Schnupper versucht, Aspekte des Kaffeegeschmacks zu messen, insbesondere den Körper (die Textur oder das Mundgefühl, wie Öligkeit), die Süße, die Säure (ein scharfes und würziges Gefühl, wie beim Beißen in eine Orange), den Geschmack (die Zeichen in der Tasse) und Nachgeschmack. Da Kaffeebohnen verräterische Aromen aus der Region verkörpern, in der sie angebaut wurden, versuchen die Cuppers möglicherweise, die Herkunft des Kaffees zu identifizieren.
