@@ -10,7 +10,7 @@ tags:
   - flavor
   - tasting
 ---
-![Flavour Wheel] (/ img / Flavour_wheel.jpg)
+![Flavour Wheel](/img/flavor_wheel.jpg)
 
 Die SCAA hat das Rad aktualisiert, um die feineren Nuancen widerzuspiegeln, die zur genaueren Beschreibung der Aromen erforderlich sind. Die neuen Beschreibungen sind detaillierter und ermöglichen es den Kupfern daher, zwischen mehr Geschmacksrichtungen zu unterscheiden.
 
