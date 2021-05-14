@@ -2,7 +2,10 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
+import Img from 'gatsby-image'
 import Content, { HTMLContent } from '../components/Content'
+import Tilt from 'react-tilt'
+import mainImage from '../img/flavor_wheel.jpg'
 
 export const AboutPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content
@@ -33,6 +36,7 @@ AboutPageTemplate.propTypes = {
 
 const AboutPage = ({ data }) => {
   const { markdownRemark: post } = data
+  const { file: image } = data
 
   return (
     <Layout locale={post.fields.locale}> 
@@ -41,6 +45,13 @@ const AboutPage = ({ data }) => {
         title={post.frontmatter.title}
         content={post.html}
       />
+        <div className="container">
+          <Tilt className="Tilt" options={{ max : 25 }} style={{ height: 250, width: 250 }} >
+            <div className="Tilt-inner">
+              <Img fixed={image.childImageSharp.fixed} />
+            </div>
+          </Tilt>
+        </div>
     </Layout>
   )
 }
@@ -53,6 +64,13 @@ export default AboutPage
 
 export const aboutPageQuery = graphql`
   query AboutPage($id: String!) {
+    file(relativePath: { eq: "flavor_wheel.jpg" }) {
+      childImageSharp {
+        fixed(width: 300, height: 300) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
     markdownRemark(id: { eq: $id }) {
       fields {
         locale
